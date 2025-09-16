@@ -4,4 +4,4 @@
 * Simply blocks any player using a recycler but can be assigned to be used with the apropiate permission.
 
 ## Permissions
-* *recyclerblock.bypass* : Assign this to the player to make recyclers accesable
+* *recyclerblock.bypas* : Assign this to the player to make recyclers accesable
