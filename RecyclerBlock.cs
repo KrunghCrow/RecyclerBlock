@@ -2,12 +2,12 @@ using Oxide.Core;
 
 namespace Oxide.Plugins
 {
-    [Info("Recycler Block", "Krungh Crow", "1.0.1")]
+    [Info("Recycler Block", "Krungh Crow", "1.0.2")]
     [Description("Disables using the recycler")]
 
     class RecyclerBlock : RustPlugin
     {
-        void Init() => permission.RegisterPermission("recyclerblock.bypas" , this);
+        void Init() => permission.RegisterPermission("recyclerblock.bypass" , this);
 
         private object CanLootEntity(BasePlayer player, Recycler recycler)
         {
@@ -17,4 +17,5 @@ namespace Oxide.Plugins
             return false;
         }
     }
+
 }
